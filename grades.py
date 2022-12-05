@@ -52,9 +52,10 @@ def calculate_grade(grade: str) -> int:
         case "NE":
             percent = 0
             return percent
-        case _ :
+        case _:
             percent = -1
             return percent
+
 
 def main():
     # input
@@ -63,8 +64,8 @@ def main():
 
     # call functions
     grades_as_percent = calculate_grade(grade)
-    if grades_as_percent == -1 :
-        print ("Invalid Input")
+    if grades_as_percent == -1:
+        print("Invalid Input")
     else:
         print("Level {0} equals {1}%.".format(grade, grades_as_percent))
 
