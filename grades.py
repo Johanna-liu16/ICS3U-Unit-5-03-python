@@ -4,8 +4,6 @@
 # Created on: Dec 2022
 # This program converts grades
 
-import random
-
 
 def calculate_grade(grade: str) -> int:
     # calculate area
@@ -60,7 +58,7 @@ def calculate_grade(grade: str) -> int:
 
 def main():
     # input
-    print("This program calculates the area of a triangle.")
+    print("This program converts grade level to percentage.")
     grade = input("Enter grade as a level: ")
 
     # call functions
